@@ -12,10 +12,15 @@
     padding: 0px;
 }
 
-:root{
+:root {
     --font1: Arial, Helvetica, sans-serif;
     --font2: 'Passion One', Sans-serif;
-    --font3: 'Sriracha', Arial, Sans-serif, Times;
+    --font3: 'Sriracha', Arial, Sans-serif;
+}
+
+html body {
+    min-height: 100vh;
+    font-family: var(--font1);
 }
 
 header {
@@ -29,6 +34,7 @@ header h1 {
     font-family: var(--font1);
     text-align: center;
     padding-top: 50px;
+    font-size: 3vw;
     font-variant: small-caps;
 }
 
@@ -50,26 +56,49 @@ a:hover {
 }
 
 section {
-    padding-top: 10vh;
+    padding-left: 5vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 10px;
+    font-size: 2em;
     font-family: var(--font3);
+    
 }
 
 .normal {
     background-color: white;
+    padding-bottom: 3em;
     color: black;
+}
+
+.normal p {
+    padding-bottom: 2em;
 }
 
 .imagem {
     background-color: rgb(54, 54, 54);
+    box-shadow: inset 6px 6px 13px black;
     color: white;
 }
 
 .imagem p {
     background-color: rgba(0, 0, 0, 0.728);
-    width: 300px;
+    padding: 10px;
+    display: inline-block;
+    min-width: 300px;
+
+}
+.imagem#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.imagem#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 footer {
