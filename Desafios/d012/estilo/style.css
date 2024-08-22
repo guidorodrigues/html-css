@@ -31,10 +31,9 @@ header {
 }
 
 header h1 {
-    font-family: var(--font1);
+    font-family: var(--font2);
     text-align: center;
     padding-top: 50px;
-    font-size: 3vw;
     font-variant: small-caps;
 }
 
@@ -59,7 +58,7 @@ section {
     
     padding-bottom: 10vh;
     line-height: 2em;
-    font-size: 2em;
+    font-size: 5vh;
     font-family: var(--font3);
     
 }
