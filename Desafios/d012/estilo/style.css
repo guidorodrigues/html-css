@@ -61,10 +61,12 @@ section {
     font-size: 5vh;
     font-family: var(--font3);
     
+    
 }
 
 .normal {
     background-color: white;
+    padding: 10vh;
     padding-bottom: 3em;
     color: black;
 }
@@ -76,6 +78,7 @@ section {
 .imagem {
     background-color: rgb(54, 54, 54);
     box-shadow: inset 6px 6px 13px black;
+    padding: 10vh;
     color: white;
 }
 
