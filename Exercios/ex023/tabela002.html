@@ -7,26 +7,48 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+            position: center center;
         }
+
+        body, p{
+        position: fixed;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        tr:nth-child(odd){
+            background-color: lightgreen;
+        }
+        
 
         table{
             border-collapse: collapse;
+            background-color: grey;
+            position: sticky;
+            top: -1px;
+            
         }
         td, th{
             width: 500px;
             border: 1px solid black;
+            
         }
         th{
             background-color: grey;
         }
+    
+            
         .num {
             text-align: right;
+            
         }
+        
     </style>
     
     
 </head>
 <body>
+    <caption>Legenda da tabela</caption>
     <table>
     <thead>
         <tr>
@@ -47,11 +69,22 @@
             <td>Bahia</td>
             <td class="num">000.000.000</td>
         </tr>
+        <tr>
+            <td>Pará</td>
+            <td class="num">000.000.000</td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td class="num">000.000.000</td>
+        </tr>
     </tbody>
     <tfoot>
         <th>Tábela de habitantes</th>
         <td class="num">000.000.000</td>
     </tfoot>
 </table>
+
+
+</body>
 </body>
 </html>
