@@ -12,17 +12,24 @@
         table{
             border-collapse: collapse;
         }
+        #container{
+            overflow-x: auto;
+            
+        }
 
         caption{
             font-size: 1.5em;
             padding: 8px;
             font-weight: bolder;
+            background-color: lightgray  ;
         }
 
+        }
         th{
             background-color: lightgray;
         }
-        td:nth-child(odd){
+
+        tr:nth-child(2n){
             background-color: lightblue;
         }
 
@@ -35,7 +42,7 @@
 <body>
     <h1>Tabelas em Telas Pequenas</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam itaque nemo debitis esse tenetur alias similique nulla aliquid error reprehenderit, voluptas ratione veritatis neque amet dignissimos labore aspernatur? Delectus, fuga.</p>
-
+</div id="container">
     <table>
         <caption>Tabelas Responsivas</caption>
         <thead>
@@ -163,5 +170,6 @@
         </tr>
     </tbody>
     </table>
+    <div>
 </body>
 </html>
