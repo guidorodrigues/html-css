@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centralizar Div</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      header{
+        height: 1em;
+      }
+      h1 {
+        text-align: center;
+        padding-top: 2em;
+        font-size: 3em;
+      }
+      main {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+      .minha-div{
+        background-color: darkred;
+        width: 200px;
+        height: 200px;
+        display: flex;
+      }
+
+      .minha-div:hover{
+        background-color: darkblue;
+      }
+      /*
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .minha-div {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        text-align: center;
+      }
+        */
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>1. Usando Flexbox</h1>
+    </header>
+    <main>
+      <div class="minha-div"></div>
+    </main>
+  </body>
+</html>
